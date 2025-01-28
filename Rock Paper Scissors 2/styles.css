@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.choice-btn, .reset-btn {
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.choice-btn:hover, .reset-btn:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+}
+
+.reset-btn {
+  margin-top: 20px;
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.score-container, #result-container {
+  margin: 20px 0;
+}
+
+.winning {
+  color: green;
+  font-weight: bold;
+}
+
+.losing {
+  color: red;
+  font-weight: bold;
+}
