@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  #score-container {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .card img {
+    width: 80%;
+    height: 80%;
+    display: none;
+  }
+  
+  .card.flipped img {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #congratulations {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  #restart {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #restart:hover {
+    background-color: #45a049;
+  }
+  
